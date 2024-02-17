@@ -6,15 +6,15 @@ class Program {
     decimal cent = 0.01m;
     decimal nickel = 0.05m;
     decimal quarter = 0.25m;
-    int peso = 1;
-    int lima = 5;
-    int sampu = 10;
-    int bente = 20;
-    int fifty = 50;
-    int onehund = 100;
-    int twohund = 200;
-    int fivehund = 500;
-    int onethou = 1000;
+    decimal peso = 1;
+    decimal lima = 5;
+    decimal sampu = 10;
+    decimal bente = 20;
+    decimal fifty = 50;
+    decimal onehund = 100;
+    decimal twohund = 200;
+    decimal fivehund = 500;
+    decimal onethou = 1000;
 
     Console.WriteLine("Enter the denomination:");
     decimal money = Decimal.Parse(Console.ReadLine());
